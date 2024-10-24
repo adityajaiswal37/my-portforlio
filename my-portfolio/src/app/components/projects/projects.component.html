@@ -1,0 +1,11 @@
+<div class="main">
+    <div class="project-section" *ngFor="let project of projects">
+        <div>
+            <img class="logo" [src]="project.company" alt="">
+        </div>
+        <div class="macbook-container">
+            <img class="macbook" [src]="project.image" alt="">
+        </div>
+        <div class="project-desc">{{ project.description }}</div>
+    </div>
+</div>

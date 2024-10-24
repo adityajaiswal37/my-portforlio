@@ -1,4 +1,7 @@
 .main{
+    position: sticky;
+    top: 20px;
+    z-index: 1000; /* Ensure it stays above other content */
     display: flex;
     align-items: center;
     justify-content: space-around;

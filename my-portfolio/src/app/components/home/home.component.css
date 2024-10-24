@@ -1,4 +1,9 @@
-.main{
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.about-section{
     display: flex;
     flex-direction: column;
     justify-content: center;
