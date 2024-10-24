@@ -39,7 +39,7 @@
 .macbook{
     width: 500px;
     cursor: pointer;
-    transition: 0.4s ease transform;
+    transition: 0.9s ease transform;
     padding: 10px 0;
 }
 .macbook:hover{
