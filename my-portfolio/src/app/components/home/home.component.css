@@ -25,6 +25,13 @@
     height: 154px;
     object-fit: cover;
     border-radius: 100%;
+    transition: 0.6s ease transform, 0.6s ease border-radius;
+    z-index: 1000;
+    cursor: pointer;
+}
+.profile:active{
+    transform: scale(1.8);
+    border-radius: 20px;
 }
 .middle{
     display: flex;
