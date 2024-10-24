@@ -10,5 +10,17 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  scrollTo(path:any) {
+    const element = document.getElementById(path);
+    if (element) {
+      const offset = 120;
+      const elementPosition = element.getBoundingClientRect().top + window.scrollY; // Get the element's position
+      const offsetPosition = elementPosition - offset; // Calculate the position with offset
 
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth' // Smooth scroll
+      });
+    }
+  }
 }
