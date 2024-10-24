@@ -13,7 +13,7 @@ export class HeaderComponent {
   scrollTo(path:any) {
     const element = document.getElementById(path);
     if (element) {
-      const offset = 120;
+      const offset = 110;
       const elementPosition = element.getBoundingClientRect().top + window.scrollY; // Get the element's position
       const offsetPosition = elementPosition - offset; // Calculate the position with offset
 

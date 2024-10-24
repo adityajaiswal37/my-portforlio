@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: calc(min(1060px, 100vw) - (calc(min(100vw, 1440px) / 48) * 12));
+    width: calc(min(1060px, 100vw) - (calc(min(100vw, 1440px) / 48)));
     margin: auto;
     gap: 60px;
     margin-top: 80px;
@@ -22,6 +22,8 @@
 }
 .profile{
     width: 154px;
+    height: 154px;
+    object-fit: cover;
     border-radius: 100%;
 }
 .middle{
@@ -41,7 +43,7 @@
     color: transparent;
 }
 .desc{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
 }
 .footer{

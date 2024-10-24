@@ -12,4 +12,8 @@ import { CommonModule } from '@angular/common';
 export class ProjectsComponent {
   projects = Projects;
 
+  openNewTab(path: string): void {
+    window.open(path, '_blank');
+  }
+
 }

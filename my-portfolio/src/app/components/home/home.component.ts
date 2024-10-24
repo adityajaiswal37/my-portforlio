@@ -9,5 +9,8 @@ import { ProjectsComponent } from '../projects/projects.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  openNewTab(url: string): void {
+    window.open(url, '_blank');
+  }
 
 }
