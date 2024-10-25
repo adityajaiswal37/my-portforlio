@@ -49,12 +49,12 @@ export const Edutcation = [
 ]
 export const Certificates = [
     {
-        year: "August. 23",
+        year: "August-2023",
         name: "AWS Certified Solutions Architect-Associate",
         lint: ""
     },
     {
-        year: "November. 21",
+        year: "November-2021",
         name: "The Bits and Bytes of Computer Networking Google",
         lint: ""
     }
