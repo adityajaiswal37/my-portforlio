@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from '../components/header/header.component';
 import { HomeComponent } from '../components/home/home.component';
 import { CommonModule } from '@angular/common';
+import { FooterComponent } from '../components/footer/footer.component';
 
 @Component({
   selector: 'app-main',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, HomeComponent, CommonModule],
+  imports: [RouterOutlet, HeaderComponent, HomeComponent, FooterComponent, CommonModule],
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']  // Fixed to styleUrls
 })

@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="200px"
+  height="100px"
+>
+  <g fill="none" stroke="black" stroke-width="2">
+    <path d="M4 40 C4 25, 60 25, 60 40 L64 50 L0 50 Z" fill="red" />
+    <circle cx="15" cy="50" r="4" fill="black" />
+    <circle cx="45" cy="50" r="4" fill="black" />
+    <path d="M16 40 L12 35 L52 35 L48 40 Z" fill="black" />
+    <path d="M16 40 C10 45, 10 55, 16 60 L48 60 C54 55, 54 45, 48 40 Z" fill="darkgray" />
+  </g>
+</svg>
