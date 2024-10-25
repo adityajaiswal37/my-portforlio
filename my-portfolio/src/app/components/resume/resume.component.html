@@ -1,0 +1,36 @@
+<div class="main">
+    <div class="page">
+        <div class="name">Aditya Jaiswal</div>
+        <div class="contact">
+            <div class="email">{{ contact.email }}</div>
+            <div class="phone">{{ contact.phone }}</div>
+            <div class="github">{{ contact.github }}</div>
+            <div class="linkedin">{{ contact.linkedin }}</div>
+        </div>
+        <div class="section">
+            <div class="heading">Education</div>
+            <div class="details" *ngFor="let education of educations">
+                <div class="head">
+                    <div class="school">{{ education.school }}</div>
+                    <div class="year">{{ education.year }}</div>
+                </div>
+                <div class="foot">
+                    <span>●</span>
+                    <div class="sub-foot">
+                        <div class="subject">{{ education.class }}</div>
+                        <div class="marks">{{ education.marks }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="heading">Certification</div>
+            <div class="details" *ngFor="let certificate of certificates">
+                <div class="head">
+                    <div class="school">{{ certificate.name }}</div>
+                    <div class="year">{{ certificate.year }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

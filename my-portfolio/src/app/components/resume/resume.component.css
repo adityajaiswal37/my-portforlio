@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: left;
+    width: calc(min(1300px, 100vw) - (calc(min(100vw, 1440px) / 48)));
+    margin: auto;
+}
+
+.page {
+    width: 160mm;
+    height: 200mm;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 9px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact div {
+    display: inline;
+    margin: 0 5px;
+}
+
+.section {
+    margin-bottom: 12px;
+}
+
+.heading {
+    color: #2e75b5;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 3px;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+}
+
+.foot {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+}
+.sub-foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
