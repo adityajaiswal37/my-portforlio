@@ -26,21 +26,21 @@ export const Edutcation = [
         year: "2017-2018",
         class: "The Secondary School Certificate (SSC)",
         school: "Modern Public School Ashta",
-        description: "MyDeziner.com is a B2B platform that simplifies 3D interior design and project management, helping designers and firms close deals faster.",
+        description: "I performed well academically in 10th grade, focusing on strengthening my understanding in key subjects like Mathematics, Science, and English. With a genuine curiosity and commitment to learning, I engaged actively in classes and consistently achieved high scores. My disciplined approach helped me set and reach goals, laying a solid foundation for my future studies.",
         image: "assets/mps1.png"
     },
     {
         year: "2019-2020",
         class: "The Higher Secondary Certificate (HSC)",
         school: "Modern Public School Ashta",
-        description: "MyDeziner.com is a B2B platform that simplifies 3D interior design and project management, helping designers and firms close deals faster.",
+        description: "In 12th grade, I continued to excel academically, with a strong focus on subjects relevant to my chosen field, such as Mathematics, Physics, and Chemistry. I approached studies with dedication, balancing rigorous coursework with active participation in projects and practical applications. This year strengthened my analytical and problem-solving skills, preparing me well for future academic and career pursuits.",
         image: "assets/mps2.png"
     },
     {
         year: "2020-2024",
         class: "B.Tech Bachelor of Computer Science Engineering (BCE)",
         school: "Vellore Institute of Technology (VIT)",
-        description: "MyDeziner.com is a B2B platform that simplifies 3D interior design and project management, helping designers and firms close deals faster.",
+        description: "During my B.Tech, I gained in-depth knowledge and hands-on experience in programming, data structures, algorithms, and emerging technologies like AI and web development. I collaborated on projects, internships, and research, sharpening my technical skills and practical understanding of real-world applications. This journey fueled my passion for technology, preparing me for a dynamic and impactful career in software engineering.",
         image: "assets/vit.png"
     }
 ]
