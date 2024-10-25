@@ -2,13 +2,13 @@
     <div class="page">
         <div class="name">ADITYA JAISWAL</div>
         <div class="contact">
-            <div>{{ contact.email }}</div>
-            <div>{{ contact.phone }}</div>
-            <div>{{ contact.github }}</div>
-            <div>{{ contact.linkedin }}</div>
+            <div><a href="mailto:{{ contact.email }}" target="_blank">{{ contact.email }}</a></div>
+            <div><a href="tel:{{ contact.phone }}" target="_blank">{{ contact.phone }}</a></div>
+            <div><a href="{{ contact.github }}" target="_blank">{{ contact.github }}</a></div>
+            <div><a href="{{ contact.linkedin }}" target="_blank">{{ contact.linkedin }}</a></div>
         </div>
         <div class="section">
-            <div class="heading">Education</div>
+            <div class="heading" (click)="scrollTo('education')">Education</div>
             <div class="details" *ngFor="let education of educations">
                 <div class="head">
                     <div>{{ education.school }}</div>
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="section">
-            <div class="heading">Projects</div>
+            <div class="heading" (click)="scrollTo('projects')">Projects</div>
             <div class="details gap-3" *ngFor="let project of projects">
                 <div class="head">
                     <div>{{ project.name }}</div>
