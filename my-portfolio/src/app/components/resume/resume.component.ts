@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Certificates, Contact, Edutcation } from '../../models/projects';
+import { Certificates, Contact, Edutcation, Experiences, Projects, Skills } from '../../models/projects';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -13,5 +13,7 @@ export class ResumeComponent {
   educations = Edutcation;
   contact = Contact;
   certificates = Certificates;
-
+  skills = Skills;
+  projects = Projects;
+  experiences = Experiences;
 }

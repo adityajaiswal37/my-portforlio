@@ -1,24 +1,24 @@
 <div class="main">
     <div class="page">
-        <div class="name">Aditya Jaiswal</div>
+        <div class="name">ADITYA JAISWAL</div>
         <div class="contact">
-            <div class="email">{{ contact.email }}</div>
-            <div class="phone">{{ contact.phone }}</div>
-            <div class="github">{{ contact.github }}</div>
-            <div class="linkedin">{{ contact.linkedin }}</div>
+            <div>{{ contact.email }}</div>
+            <div>{{ contact.phone }}</div>
+            <div>{{ contact.github }}</div>
+            <div>{{ contact.linkedin }}</div>
         </div>
         <div class="section">
             <div class="heading">Education</div>
             <div class="details" *ngFor="let education of educations">
                 <div class="head">
-                    <div class="school">{{ education.school }}</div>
-                    <div class="year">{{ education.year }}</div>
+                    <div>{{ education.school }}</div>
+                    <div>{{ education.year }}</div>
                 </div>
                 <div class="foot">
                     <span>●</span>
                     <div class="sub-foot">
-                        <div class="subject">{{ education.class }}</div>
-                        <div class="marks">{{ education.marks }}</div>
+                        <div>{{ education.class }}</div>
+                        <div>{{ education.marks }}</div>
                     </div>
                 </div>
             </div>
@@ -27,8 +27,66 @@
             <div class="heading">Certification</div>
             <div class="details" *ngFor="let certificate of certificates">
                 <div class="head">
-                    <div class="school">{{ certificate.name }}</div>
-                    <div class="year">{{ certificate.year }}</div>
+                    <div>{{ certificate.name }}</div>
+                    <div>{{ certificate.year }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="heading">Skills</div>
+            <div class="skills">
+                <p class="skill" *ngFor="let skill of skills">{{ skill }}</p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="heading">Projects</div>
+            <div class="details gap-3" *ngFor="let project of projects">
+                <div class="head">
+                    <div>{{ project.name }}</div>
+                    <div>{{ project.year }}</div>
+                </div>
+                <div>
+                    <div class="secondary">
+                        <span>●</span>
+                        <div class="objective-container">
+                            <strong>Objective:</strong> {{ project.objective }}
+                        </div>
+                    </div>
+                    <div class="secondary">
+                        <span>●</span>
+                        <div class="objective-container">
+                            <strong>Responsibilities:</strong> {{ project.responsibilities }}
+                        </div>
+                    </div>
+                    <div class="secondary">
+                        <span>●</span>
+                        <div class="objective-container">
+                            <strong>Tech Stack:</strong> {{ project.techStack }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="heading">Work Experiences</div>
+            <div class="details gap-3" *ngFor="let experience of experiences">
+                <div class="head">
+                    <div>{{ experience.role }}</div>
+                    <div>{{ experience.year }}</div>
+                </div>
+                <div>
+                    <div class="secondary">
+                        <span>●</span>
+                        <div class="objective-container">
+                            <strong>Company:</strong> {{ experience.company }}
+                        </div>
+                    </div>
+                    <div class="secondary">
+                        <span>●</span>
+                        <div class="objective-container">
+                            <strong>Responsibilities:</strong> {{ experience.responsibilities }}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.gap-3{
+    gap: 3px;
+}
 
 body,
 html {
@@ -22,7 +25,7 @@ html {
 }
 
 .page {
-    width: 160mm;
+    width: 170mm;
     height: 200mm;
     background: #fff;
     padding: 20px;
@@ -54,7 +57,7 @@ html {
 
 .heading {
     color: #2e75b5;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     margin-bottom: 5px;
     border-bottom: 2px solid #333;
@@ -63,13 +66,15 @@ html {
 
 .details {
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .head {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 9px;
     color: #333;
 }
 
@@ -77,8 +82,8 @@ html {
     display: flex;
     gap: 5px;
     align-items: center;
-    font-weight: bold;
-    font-size: 12px;
+    font-weight: 500;
+    font-size: 9px;
     color: #333;
 }
 .sub-foot{
@@ -87,3 +92,28 @@ html {
     justify-content: space-between;
     align-items: center;
 }
+.skills{
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    white-space: nowrap;
+}
+.skill{
+    display: flex;
+    font-size: 9px;
+    font-weight: 500;
+    color: #333;
+}
+.secondary {
+    display: flex;
+    align-items: flex-start;
+    font-size: 9px;
+    gap: 5px; 
+}
+
+.objective-container {
+    flex: 1;
+    display: inline;
+    line-height: 1.5;
+}
+
